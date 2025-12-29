@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://myserver.com" method = "post">
+        <label for = "name">Họ và tên:</label>
+        <input type = "text" id = "name" name = "name" />
+        <br/>
+        <br/>  
+        <label for= "dateofbirth">Ngày sinh:</label>
+        <input type = "date" id = "dateofbirth" name = "dateofbirth" />
+        <br/>
+        <br/>
+        <label for = "sex">Giới tính:</label>
+        <input type = "radio" id = "male" name = "sex" value = "male">
+        <label for = "male">Nam</label>
+        <input type = "radio" id = "female" name = "sex" value = "female">
+        <label for = "female">Nữ</label>
+        <br/>
+        <br/>
+        <label for = "telephone">Số điện thoại:</label>
+        <input type = "tel" id = "telephone" name = "telephone" />
+        <br/>
+        <br/>
+        <label for = "address">Địa chỉ:</label>
+        <textarea id= "address" name="address"></textarea>
+        <br/>
+        <br/>
+        <label for = "role">Vai trò trong nhóm:</label>
+        <select name="role" id="role">
+            <option value="leader">Trưởng nhóm</option>
+            <option value="member">Thành viên</option>
+        </select>
+        <br/>
+        <br/>
+        <label for = "skills">Kỹ năng:</label>
+        <textarea id= "skills" name="skills"></textarea>
+        <br/>
+        <br/>
+        <label for = "freetime">Thời gian rảnh:</label>
+        <input type = "checkbox" value = "morning" name = "freetime"/>
+        <label for = "morning">Sáng</label>
+        <input type = "checkbox" value = "afternoon" name = "freetime"/>
+        <label for = "afternoon">Chiều</label>
+        <input type = "checkbox" value = "evening" name = "freetime"/>
+        <label for = "evening">Tối</label>
+        <br/>
+        <br/>
+        <label for = "reason">Lý do tham gia nhóm:</label>
+        <textarea name="reason" id="reason"></textarea>
+        <br/>
+        <br/>
+        <label for = "color">Màu sắc yêu thích:</label>
+        <input type = "color" id = "color" name = "color" />
+        <br/>
+        <br/>
+        <label for ="registerationtoreviecenews">Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="yes" name="registerationtoreviecenews" value = "yes">
+        <label for="yes">Có</label>
+        <br/>
+        <br/>
+        <label for="receiceEmail">Nhận thông báo qua email:</label>
+        <input type="checkbox" id="email" name="receiceEmail" value="Email">
+        <label for = "email">Email</label>
+        <input type="checkbox" id="sms" name="receiceEmail" value="SMS">
+        <label for = "sms">SMS</label>
+        <br/>
+        <br/>
+        <button type="submit">Gửi thông tin</button>
+    </form>
+    </body>
+</html>

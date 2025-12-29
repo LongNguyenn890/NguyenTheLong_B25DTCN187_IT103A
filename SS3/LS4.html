@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form đặt mua tài liệu lập trình</h1>
+    </header>
+    <section>
+        <form action="http://www.server.com" method="post">
+            <p><label for = "document">Chọn tài liệu</label>
+            <select name="document" id="document">
+                <option value = "html & css document">Tài liệu môn HTML & CSS</option>
+                <option value = "javascript document">Tài liệu môn JavaScript</option>
+            </select> </p>
+            <p><label for="quantity">Số lượng:</label>
+            <input type = "number" id = "quantity" name = "quantity" min = "1" /></p>
+            <p><label for="note">Ghi chú:</label>
+            <textarea name="note" id="note"></textarea></p>
+            <p><label for ="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" /></p>
+            <input type ="submit" value = "Đặt mua" />
+        </form>  
+    </section>
+</body>
+</html>

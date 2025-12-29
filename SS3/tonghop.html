@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đăng ký sinh viên mới</h1>
+    <form action="http://www.university.com" method="post">
+        <label for = "name">Họ và tên:</label>
+        <input type = "text" id = "name" name = "name" value="Nguyen The Long" />
+        <br/>
+        <br/>
+        <label for="date of birth">Ngày sinh đầy đủ:</label>
+        <input type = "date" id = "date of birth" name = "date of birth" value = "2007-12-20"/>
+        <br/>
+        <br/>
+        <label for = "enrollment month">Tháng năm nhập học:</label>
+        <input type = "month" id = "enrollment month" name = "enrollment month" value="2025-09"/> 
+        <br/>
+        <br/>
+        <label for = "time of study">Thời gian học:</label>
+        <input type = "time" id = "time of study" name = "time of study"/>
+        <br/>
+        <br/>
+        <label for = "gender">Giới tính:</label>
+        <input type = "radio" id = "male" name = "gender" value = "male">
+        <label for = "male">Nam</label>
+        <input type = "radio" id = "female" name = "gender" value = "female">
+        <label for = "female">Nữ</label>
+        <input type = "radio" id = "other" name = "gender" value = "other">
+        <label for = "other">Khác</label>
+        <br/>
+        <br/>
+        <label for = "email">Email sinh viên:</label>
+        <input type = "email" id = "email" name = "email"/>
+        <br/>
+        <br/>
+        <label for = "password">Mật khẩu:</label>
+        <input type = "password" id = "password" name = "password"/>
+        <br/>
+        <br/>
+        <label for = "goal">Mục tiêu học tập:</label>
+        <textarea id = "goal" name = "goal"></textarea>
+        <br/>
+        <br/>
+        <label for = "branch">Cơ sở:</label>
+        <select name="branch" id="branch">
+            <option value = "Hanoi">Hà Nội</option>
+            <option value = "hochiminh">Hồ Chí Minh</option>
+            <option value = "danang">Đà Nẵng</option>
+        </select>
+        <br/>
+        <br/>
+        <label for = "id photo">Ảnh thẻ sinh viên:</label>
+        <input type = "file" id="id photo" name="id photo"/>
+        <br/>
+        <br/>
+        <label for = "favorite subject">Môn học yêu thích:</label>  
+        <input type = "checkbox" id = "math" value = "math" name = "favorite subject"/>
+        <label for = "math">Toán</label>
+        <input type = "checkbox" id = "programing" value = "programing" name = "favorite subject"/>
+        <label for = "programing">Lập trình</label>
+        <input type = "checkbox" id = "english" value = "english" name = "favorite subject"/>
+        <label for = "eng">Tiếng Anh</label>
+        <input type="checkbox" name="favorite subject" id="physics" value="physics">
+        <label for="physics">Vật lý</label>
+        <br/>
+        <br/>
+        <label for = "progress">Tiến độ học tập:</label>
+        <input type = "range" id = "progress" name = "progress" min="0" max="100" value = "65"/>
+        <br/>
+        <br/>
+        <label for = "school year">Năm học hiện tại:</label>
+        <input type = "number" id = "school year" name = "school year" min="1" max="5"/>
+        <br/>
+        <br/>
+        <label for = "search">Tìm kiếm khóa học:</label>
+        <input type = "search" id = "search" name = "search" />
+        <br/>
+        <br/>
+        <label for = "color">Màu sắc yêu thích:</label>
+        <input type = "color" id = "color" name = "color" />
+        <br/>
+        <br/>
+        <button type = "reset">Hủy</button>
+        <button type = "reset">Làm mới</button>
+        <button type = "submit">Gửi</button>
+    </form>
+</body>
+</html>
