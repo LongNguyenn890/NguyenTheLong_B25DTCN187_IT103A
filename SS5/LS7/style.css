@@ -1,0 +1,33 @@
+.container {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+.section1 {
+    background-color: #e6f7ff;
+}
+h1, h2 {
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.intro {
+    color: #1e90ff;
+}
+
+.p1 {
+    color:red;
+}
+
+.p2 {
+    font-style: italic;
+}
+
+.p3 {
+    text-decoration: underline;
+}
+
+.p4 {
+    font-weight: bolder;
+}

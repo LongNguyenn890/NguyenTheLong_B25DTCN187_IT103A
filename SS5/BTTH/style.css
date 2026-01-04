@@ -1,0 +1,58 @@
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f9ff;
+    color: #0f172a
+}
+
+.header {
+    background-color: #0284c7;
+    text-align: center;
+    color: white;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+h2 {
+    color:#0284c7
+}
+
+em {
+    color: #0284c7
+}
+
+.services ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.services li:hover {
+    color: #0284c7;
+}
+
+.services li::before {
+    content: "🦷"
+}
+
+.red {
+    color: red;
+    font-style: italic;
+}
+
+.contact a{
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    font-size: 30px;
+    background-color: #0284c7;
+    text-align: center;
+    font-weight: bold;
+}
