@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f9ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    background-color: #ccfbf1;
+    color: #0f766e;
+}
+
+.menu { 
+    background-color: #e0f2fe;
+}
+
+.menu a:hover {
+    background-color: #0284c7;
+    color: #ffff;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 8px;
+    color: #0369a1;
+    font-weight: 800;
+}
+
+
+.banner {
+    text-align: center;    
+}
+.banner img {
+    width: 800px;
+    margin-top: 20px;
+
+}
+
+.section {
+    background-color: #ffff;
+}
+
+.section h2 {
+    color: #155e75;
+}
+
+.section p {
+    font-size: 18px;
+}
+
+.section ul {
+    font-size: 18px;
+}
+ 
+.service-list:hover {
+    background-color: #dbeafe;
+    color: #3c96e7;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0f766e;
+    color: #ffff;
+}
+
+.footer p {
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+th,td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #bae6fd;
+    color: #075995;
+}
+
+tr:hover {
+    background-color: #e0f2fe;
+}
+
+
+.section form {
+    display: block;
+    text-align: center;
+}
+
+.section form label {
+    display: block;
+    color: #134e4a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section form input,
+.section form select,
+.section form textarea {
+    font-size: 18px;
+    outline: none;
+}
+
+.section form input:focus,
+.section form select:focus,
+.section form textarea:focus {
+    background-color: #ecfeff;
+}
+
+
+.section form input[type = "submit"] {
+    font-size: 18px;
+    background-color: #0ea5a4;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.section form input[type = "submit"]:hover {
+    background-color: #0f766e;
+}
+
