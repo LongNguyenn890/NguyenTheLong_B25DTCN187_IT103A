@@ -1,0 +1,40 @@
+.card {
+    width: 360px;
+    border: 1px solid;
+}
+
+
+.card-header::before {
+    content: "⭐";
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6600;
+    padding: 10px
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content h3{
+    margin: 0px;
+    font-size: 25px;
+}
+
+.specialty {
+    color: #b6ff29;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    color: #686788;
+}

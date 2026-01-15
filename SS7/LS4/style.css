@@ -1,0 +1,25 @@
+.container {
+    font-size: 15px;
+    margin: 100px auto;
+    width: 850px;
+    background-color: #f4f8f6;
+}
+
+.card-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 230px;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.card h2 {
+    color: #25d1ff;
+}
