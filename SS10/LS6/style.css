@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+.header-container {
+    width: 1200px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 32px;
+    color: #D4AF37;
+}
+
+.navigation {
+    width: 326.61px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-section {
+    position: relative;
+    background-image: url('banner.png');
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    position: relative;
+}
+
+.banner-header {
+    font-size: 56px;
+}
+
+.banner-text {
+    font-size: 20px;
+    width: 654.08px;
+    margin-top: 20px;
+}
+
+.highlight-section {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight-container {
+    width: 1300px;
+}
+
+.header-section {
+    font-size: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.header-section::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    width: 60px;
+    height: 3px;
+    background: #d4af37;
+    border-radius: 2px;
+}
+
+.highlight-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.food img {
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: 0.25s;
+}
+
+.food img:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    background-color: #1e1e1e;
+    padding: 50px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.about-header {
+    font-size: 48px;
+    padding: 40px;
+}
+
+.about-text {
+    width: 899px;
+}
+
+.footer {
+    font-size: 15px;
+    color: #fff;
+    background-color: #111111;
+    padding: 40px;
+    text-align: center;
+}
