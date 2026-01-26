@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    margin: 343px 60px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.left-header {
+    font-size: 20px;
+    color: #49BBBD;
+    font-weight: bold;
+}
+
+.course-container {
+    display: flex;
+    gap: 50px;
+}
+
+.course-item {
+    padding: 20px 19px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6px;
+    font-size: 14px;
+    color: #696984;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.text {
+    font-size: 18px;
+    color: #696984;
+    margin-bottom: 17px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.name p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.origianl-price {
+    font-size: 18px;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.discounted-price {
+    font-size: 24px;
+    color: #49BBBD;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .section-container {
+        margin: 200px 20px;
+    }
+
+    .course-item img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .course-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+

@@ -1,0 +1,1076 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 21px 383px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    font-weight: 500;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    color: #6366F1;
+}
+
+.auth-buttons {
+    margin-left: 16px;
+}
+
+.login-btn {
+    background-color: #fff;
+    border: 1px solid #6366F1;
+    border-radius: 8px;
+    color: #6366F1;
+    font-weight: bold;
+    padding: 16px 22px;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    transform: scale(1.05);
+}
+
+.signup-btn {
+    background-color: #6366F1;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    padding: 16px 22px;
+    transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #4F46E5;
+    transform: scale(1.05);
+}
+
+.linked {
+    padding: 16px 384px 17px;
+}
+
+.linked span:first-child,
+.linked span:nth-child(2) {
+    color: #6B7280;
+}
+
+.banner {
+    background-color: #1f2937;
+    min-height: 1189px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    display: flex;
+    gap: 59px;
+    padding: 48px 384px;
+}
+
+.logo-1 {
+    padding: 9px 12px;
+    background-color: #404955;
+    border-radius: 6px;
+    color: #fff;
+    width: fit-content;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+.banner-text {
+    font-size: 18px;
+    margin-bottom: 36px;
+    color: #fff;
+}
+
+.statistic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #4c545f;
+}
+
+.teacher {
+    padding-top: 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.role {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 3.39px;
+}
+
+.name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 0px 32px;
+}
+
+.price-section {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.discount-price {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.original-price {
+    font-size: 16px;
+    color: #6B7280;
+    text-decoration: line-through;
+    margin-bottom: 16px;
+}
+
+.discount {
+    padding: 9px 12px;
+    color: #166534;
+    font-weight: bold;
+    background-color: #DCFCE7;
+    border-radius: 8px;
+}
+
+.btn-2 {
+    margin-top: 29px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #6B7280;
+}
+
+.btn-2 p {
+    text-align: center;
+    color: #fff;
+    padding: 22px 16px;
+    background-color: #FEF3C7;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.regist-btn {
+    background-color: #6366F1;
+    color: #fff;
+    padding: 20px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.add-btn {
+    background-color: #fff;
+    border: 2px solid #4F46E5;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.course {
+    margin-top: 37px;
+    margin-bottom: 23px;
+}
+
+.title-card {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.course p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.commit-section {
+    padding-bottom: 32px;
+}
+.commit {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F9FAFB;
+}
+
+.green {
+    color: #16A34A;
+}
+
+.contetnt-section {
+    background-color: #fff;
+}
+
+.section-container {
+    display: flex;
+    gap: 48px;
+    padding: 48px 384px;
+}
+
+.section {
+    padding: 48px;
+    line-height: 1.6;
+    border-radius: 18px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.content-1 {
+    display: flex;
+    gap: 60px;
+}
+
+.col {
+    max-width: 251px;
+}
+
+.col p {
+    margin-bottom: 33px;
+}
+
+.col p::before {
+    content: '✓ ';
+    color: #16A34A;
+}
+
+.content-2 p {
+    margin-bottom: 35px;
+}
+
+.content-2 h3 {
+    margin-bottom: 16px;
+}
+
+.content-2 ul {
+    list-style-type: disc;
+    padding-left: 32px;
+    margin-bottom: 32px;
+}
+
+.content-2 ul li {
+    margin-bottom: 16px;
+}
+ 
+.lesson-course {
+    border: 1px solid #E5E7EB;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+.lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background-color: #F9FAFB;
+    border-radius: 18px 18px 0 0;
+}
+
+.lesson-body {
+    padding: 16px 24px;
+}
+
+.lesson-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.course-box {
+    padding: 32px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-box h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.box-item {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.box-content p {
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 110px;
+    padding-bottom: 9px;
+}
+
+.rating-price {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.rating {
+    font-size: 12.5px;
+}
+
+.price {
+    font-size: 13.8px;
+    font-weight: bold;
+    color: #4F46E5;
+}
+
+.share-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook {
+    margin-bottom: 16px;
+    padding: 20px 0;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.twitter {
+    margin-bottom: 16px;
+    padding: 20px 0;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.linkedin {
+    margin-bottom: 16px;
+    padding: 20px 0;
+    background-color: #0A66C2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.copy {
+    margin-bottom: 16px;
+    padding: 20px 0;
+    background-color: #F3F4F6;
+    border: none;
+    border-radius: 6px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.section ul {
+    padding: 0px 32px;
+}
+
+.section ul li {
+    margin-bottom: 16px;
+}
+
+.instructor-card {
+    margin-bottom: 24px;
+}
+
+.avartar-section {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.instructor-card img {
+    width: 120px;
+    height: 120px;
+    margin-right: 24px;
+}
+
+.name-2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.role-2 {
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 8px;
+}
+
+.stats {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.desc {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 32px
+}
+
+.review-summary {
+    display: flex;
+    gap: 40px;
+}
+
+.score {
+    text-align: center;
+    min-width: 160px;
+}
+
+.point {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.stars {
+    color: #f4a100;
+    margin: 8px 0;
+}
+
+.rating-bars {
+    flex: 1;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.bar span {
+    width: 50px;
+}
+
+.progress {
+    flex: 1;
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #f4a100;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.comment {
+    display: flex;
+    gap: 16px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-content h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.comment-content h4 span {
+    font-size: 13px;
+    color: #888;
+    font-weight: normal;
+}
+
+.comment-content p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.like {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.more {
+    background-color: #fff;
+    color: #4F46E5;
+    padding: 12px 24px;
+    border: 2px solid #4F46E5;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 64px 360px 24px 360px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.col-1 {
+    width: 393px;
+}
+
+.social {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.col-2 p {
+    margin-bottom: 10px;
+}
+
+.footer-end {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design - Tablet */
+@media (max-width: 1024px) {
+    header {
+        padding: 21px 50px;
+    }
+
+    .linked {
+        padding: 16px 50px 17px;
+    }
+
+    .banner-content {
+        padding: 48px 50px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .banner {
+        min-height: auto;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+    }
+
+    .statistic {
+        flex-direction: column;
+        gap: 16px;
+        text-align: left;
+    }
+
+    .section-container {
+        padding: 48px 50px;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .content-1 {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 48px 50px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .section-left {
+        width: 100%;
+    }
+
+    .section-right {
+        width: 100%;
+    }
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 768px) {
+    header {
+        padding: 16px 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+    .auth-buttons {
+        display: flex;
+        gap: 8px;
+        margin-left: 0;
+    }
+
+    .login-btn,
+    .signup-btn {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .linked {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .banner {
+        min-height: auto;
+    }
+
+    .banner-content {
+        padding: 24px 20px;
+        flex-direction: column;
+    }
+
+    .header-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .statistic {
+        flex-direction: column;
+        gap: 12px;
+        padding-bottom: 24px;
+    }
+
+    .statistic > div {
+        width: 100%;
+    }
+
+    .logo-1 {
+        margin-bottom: 16px;
+    }
+
+    .teacher {
+        padding-top: 24px;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .teacher img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card {
+        border-radius: 8px;
+    }
+
+    .card-content {
+        padding: 0 20px;
+    }
+
+    .price-section {
+        margin-top: 24px;
+        flex-direction: row;
+    }
+
+    .discount-price {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .original-price {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .btn-2 {
+        margin-top: 16px;
+        padding-bottom: 24px;
+    }
+
+    .btn-2 p {
+        padding: 16px 12px;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .regist-btn,
+    .add-btn {
+        font-size: 16px;
+        padding: 16px 0;
+        margin-bottom: 12px;
+    }
+
+    .course {
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .title-card {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .course p {
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .commit-section {
+        padding-bottom: 16px;
+    }
+
+    .commit {
+        padding: 16px 0;
+    }
+
+    .section-container {
+        padding: 24px 20px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .section {
+        padding: 24px 16px;
+        margin-bottom: 16px;
+        border-radius: 12px;
+    }
+
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+
+    .content-1 {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .col {
+        max-width: 100%;
+    }
+
+    .col p {
+        margin-bottom: 16px;
+    }
+
+    .content-2 p {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    .content-2 h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .content-2 ul {
+        padding-left: 20px;
+        margin-bottom: 16px;
+    }
+
+    .lesson-course {
+        margin-bottom: 12px;
+    }
+
+    .lesson-header {
+        padding: 16px;
+        flex-direction: column;
+        gap: 12px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .lesson-body {
+        padding: 12px 16px;
+    }
+
+    .lesson-item {
+        flex-direction: column;
+        padding: 8px 0;
+        gap: 8px;
+    }
+
+    .course-box {
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    .course-box h2 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .box-item {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .box-content p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .rating-price {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .rating {
+        font-size: 11px;
+    }
+
+    .price {
+        font-size: 13px;
+    }
+
+    .share-btn {
+        flex-direction: column;
+    }
+
+    .facebook,
+    .twitter,
+    .linkedin,
+    .copy {
+        padding: 16px 0;
+        margin-bottom: 12px;
+    }
+
+    .instructor-card {
+        margin-bottom: 16px;
+    }
+
+    .avartar-section {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .instructor-card img {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .name-2 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .role-2 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .stats {
+        gap: 16px;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .review-summary {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .score {
+        min-width: auto;
+    }
+
+    .point {
+        font-size: 36px;
+    }
+
+    .rating-bars {
+        flex: 1;
+    }
+
+    .bar {
+        gap: 8px;
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .bar span {
+        width: 40px;
+    }
+
+    .comment {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .comment-content h4 {
+        font-size: 14px;
+    }
+
+    .comment-content h4 span {
+        font-size: 12px;
+    }
+
+    .comment-content p {
+        font-size: 13px;
+        margin: 6px 0;
+    }
+
+    .like {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    .more {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 32px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 24px;
+        padding-bottom: 16px;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .col-2 p {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .social {
+        margin-top: 12px;
+    }
+
+    .footer-end {
+        margin-top: 16px;
+        font-size: 13px;
+    }
+}
